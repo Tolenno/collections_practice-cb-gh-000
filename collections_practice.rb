@@ -21,7 +21,7 @@ def swap_elements(array)
   array
 end
 
-def swap_elements_adv(array, index, destination_index)
+def swap_elements_adv(array, index = 1, destination_index = 2)
   array[index], array[destination_index] = array[destination_index], array[index]
   puts array
 end
