@@ -22,7 +22,7 @@ def swap_elements(array)
 end
 
 def swap_elements_adv(array, index, destination_index)
-  array[index], array[destination_index] = array[index], array[destination_index]
+  array[index], array[destination_index] = array[destination_index], array[index]
   array
   binding.pry
 end
