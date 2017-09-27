@@ -25,4 +25,4 @@ def swap_elements_adv(array, index, destination_index)
 end
 
 ["blake", "ashley", "scott"]
-swap_elements_adv(array, index, destination_index)
+swap_elements_adv(array, 0, 1)
