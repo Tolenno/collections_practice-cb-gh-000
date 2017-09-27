@@ -22,6 +22,7 @@ end
 def swap_elements_adv(array, index, destination_index)
   array[index], array[destination_index] = array[index], array[destination_index]
   array
+  binding.pry
 end
 
 array = ["blake", "ashley", "scott"]
