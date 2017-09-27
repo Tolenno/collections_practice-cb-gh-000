@@ -23,8 +23,5 @@ end
 
 def swap_elements_adv(array, index, destination_index)
   array[index], array[destination_index] = array[destination_index], array[index]
-  array
+  puts array
 end
-
-array = ["blake", "ashley", "scott"]
-swap_elements_adv(array, 0, 1)
