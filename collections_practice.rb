@@ -40,6 +40,6 @@ def kesha_maker(strings)
 end
 
 def find_a(strings)
-  strings.include?.start_with? do |maybe_a|
-        
+  strings.include? do |maybe_a|
+    
 end
