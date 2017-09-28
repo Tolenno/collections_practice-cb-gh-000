@@ -41,6 +41,6 @@ end
 
 def find_a(strings)
   strings.include?.start_with("a") do |maybe_a|
-    true
+    
   end
 end
