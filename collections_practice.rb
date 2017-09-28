@@ -46,7 +46,7 @@ def find_a(strings)
 end
 
 def sum_array(numbers)
-  added = []
-  array.each do |num|
+  added = 0
+  array.each {|num| added=+}
   end
 end
