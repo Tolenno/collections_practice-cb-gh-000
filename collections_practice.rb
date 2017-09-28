@@ -42,4 +42,5 @@ end
 def find_a(strings)
   strings.include? do |maybe_a|
     maybe_a.start_with?("a")
+  end
 end
