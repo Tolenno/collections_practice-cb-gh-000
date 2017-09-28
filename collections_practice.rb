@@ -46,7 +46,6 @@ def find_a(strings)
 end
 
 def sum_array(numbers)
-  added = 0
   numbers.inject {|num| added += num}
   added
 end
