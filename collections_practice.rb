@@ -45,5 +45,4 @@ def find_a(strings)
   end
 end
 
-strings = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
-find_a(strings)
+
