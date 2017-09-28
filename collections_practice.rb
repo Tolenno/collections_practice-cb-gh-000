@@ -26,4 +26,5 @@ def swap_elements_adv(array, index = 0, destination_index = 1)
   array
 end
 
-
+def reverse_array(array)
+  array
