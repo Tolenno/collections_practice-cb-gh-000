@@ -32,7 +32,7 @@ describe 'collections practice' do
 
   # Question 4 (ADVANCED)
   describe '#swap_elements_adv' do
-    it 'swap the second and third elements of an array' do
+    it 'swap elements of an array that the user specifies' do
       expect(swap_elements(["blake", "ashley", "scott"])).to eq(["blake", "scott", "ashley"])
     end
   end
