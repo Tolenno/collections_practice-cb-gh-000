@@ -46,4 +46,5 @@ def find_a(strings)
   binding.pry
 end
 
+array = [["apple", "orange", "pear", "avis", "arlo", "ascot" ]]
 find_a(strings)
