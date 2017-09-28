@@ -41,7 +41,7 @@ end
 
 def find_a(strings)
   strings.select do |maybe_a|
-    maybe_a.start_with("a")
+    maybe_a.start_with?("a")
   end
   binding.pry
 end
