@@ -45,6 +45,9 @@ def find_a(strings)
   end
 end
 
-def sum_array(array)
-  
+def sum_array(numbers)
+  added = []
+  array.sort do |a, b|
+    
+  end
 end
