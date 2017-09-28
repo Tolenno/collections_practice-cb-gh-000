@@ -31,6 +31,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(strings)
+  new_array = []
   strings.each do |element|
     
 end
