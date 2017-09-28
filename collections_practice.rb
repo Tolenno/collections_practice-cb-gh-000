@@ -47,6 +47,6 @@ end
 
 def sum_array(numbers)
   added = 0
-  array.each {|num| added=+}
+  array.each {|num| added=+num}
   end
 end
