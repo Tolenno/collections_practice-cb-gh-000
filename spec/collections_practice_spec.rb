@@ -36,7 +36,7 @@ describe 'collections practice' do
       expect(swap_elements_adv(["blake", "ashley", "scott"], 1, 2 )).to eq(["blake", "scott", "ashley"])
     end
     it 'swaps elements on opposite ends of array' do
-      expect(swap_elements(["blake", "ashley", "scott"], 0, 2 )).to eq(["scott", "ashley", "blake"])
+      expect(swap_elements_adv(["blake", "ashley", "scott"], 0, 2 )).to eq(["scott", "ashley", "blake"])
     end
   end
 
