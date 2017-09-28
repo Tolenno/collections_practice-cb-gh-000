@@ -45,4 +45,6 @@ def find_a(strings)
   end
 end
 
-
+def sum_array(array)
+  
+end
