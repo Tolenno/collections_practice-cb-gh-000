@@ -47,7 +47,6 @@ end
 
 def sum_array(numbers)
   added = []
-  array.sort do |a, b|
-    
+  array.each do |num|
   end
 end
